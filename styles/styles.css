@@ -1,85 +1,155 @@
 /* font styles */
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 body {
-    font-family: "Azeret Mono", monospace;
+  font-family: "Azeret Mono", monospace;
 }
 /* universal styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /* header section styles */
 /* intro section */
 .intro {
-    width: 70%;
-    height: 131px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 70%;
+  height: 131px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .intro p {
-    font-size: 28px;
-    font-weight: 800;
+  font-size: 28px;
+  font-weight: 800;
 }
 .intro button {
-    border: 1px solid rgb(13, 19, 33);
-    border-radius: 8px;
-    width: 244px;
-    height: 57px;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    cursor: pointer;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  width: 244px;
+  height: 57px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
 }
 /* hero section */
 .hero-container {
-    position: absolute;
-    width: 100%;
-    height: 652px;
-    margin: 0 auto;
-    background-blend-mode: overlay;
-    background-image: url(../assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
+  width: 100%;
+  height: 652px;
+  margin: 0 auto;
+  background-blend-mode: overlay;
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hero-content img {
-    margin-top: 26px;
+  margin-top: 26px;
 }
 .hero-content h1 {
-    margin-top: 32px;
-    width: 65%;
-    height: 136px;
-    font-size: 48px;
-    font-weight: 800;
-    text-align: center;
+  margin-top: 32px;
+  width: 65%;
+  height: 136px;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
 }
 .hero-content p {
-    margin-top: 24px;
-    font-size: 16px;
-    font-weight: 400;
-    width: 60%;
-    height: 52px;
-    text-align: center;
-    color: rgb(13, 19, 33);
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 60%;
+  height: 52px;
+  text-align: center;
+  color: rgb(13, 19, 33);
 }
 .hero-content button {
-    margin-top: 32px;
-    margin-bottom: 45px;
-    width: 244px;
-    height: 65px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: black;
-    border-radius: 8px;
-    cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 45px;
+  width: 244px;
+  height: 65px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Main Section Styles */
+/* web-dev-container section */
+.web-dev-container {
+  margin: 0 auto;
+  width: 1140px;
+  height: 1393px;
+  padding: 80px 97px 80px 97px;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+.web-dev-title-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.web-dev-title-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.web-dev-title-content p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 852px;
+  height: 52px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+}
+
+.card {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  width: 946px;
+  height: 336px;
+  gap: 100px;
+  background-color: white;
+}
+.card-text h3 {
+  margin-top: 10.5px;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  width: 400px;
+  height: 72px;
+}
+.card-text p {
+  margin-top: 16px;
+  width: 468px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+}
+.card-text button {
+  margin-top: 32px;
+  width: 171px;
+  height: 47px;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  color: 1px Inside rgb(13, 19, 33);
+}
+.card-image {
+  width: 259.56px;
+  height: 217.01px;
 }
