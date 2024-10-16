@@ -147,6 +147,7 @@ body {
   font-weight: 600;
   align-items: center;
   color: 1px Inside rgb(13, 19, 33);
+  cursor: pointer;
 }
 .card-image {
   width: 259.56px;
@@ -339,4 +340,66 @@ body {
   width: 941.22px;
   height: 19px;
   text-align: start;
+  cursor: pointer;
+}
+
+/* suggetion-container */
+.suggetion-container {
+  width: 1140px;
+  height: 313px;
+  padding: 64px 48px 64px 48px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../assets/handshake.jpg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.suggetion-container h1 {
+  width: 292px;
+  height: 36px;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.suggetion-container p {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 606px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.suggetion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.suggetion input {
+  width: 548px;
+  height: 57px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+  margin-right: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 0.4);
+}
+.suggetion button {
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
 }
